@@ -21,7 +21,7 @@ def main():
     # run for loop version
     num_bottles = flv.get_starting_number()
     flv.sing(num_bottles)
-
+"""
     # run while loop with accumulator version
     num_bottles = wlav.get_starting_number()
     wlav.sing(num_bottles)
@@ -30,6 +30,6 @@ def main():
     num_bottles = wlfv.get_starting_number()
     wlfv.sing(num_bottles)
 
-
+"""
 # call main
 main()
