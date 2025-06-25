@@ -1,13 +1,19 @@
 def get_starting_number():
-
+    """
+    User input validation
+    
+    """
     while True:
-
         user_input = input("How many bottles of beer on the wall? ")
         if user_input.isdigit() and int(user_input) >= 1:
             return int(user_input)
         
 
 def sing(num_bottles):
+    """
+    sing function
+    
+    """
     for current_bottle in range(num_bottles, 0, -1):
         if current_bottle == 1:
             bottle_form = "bottle"
